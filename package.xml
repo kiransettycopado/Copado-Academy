@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Workflowalert</members>
-        <name>WorkflowAlert</name>
+        <members>Attachmentonideas</members>
+        <name>Profile</name>
     </types>
-    <types>
-        <members>Case.Priorityislow</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Case.Typeoncase</members>
-        <name>WorkflowRule</name>
-    </types>
-    <version>55.0</version>
+    <version>56.0</version>
 </Package>
