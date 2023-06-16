@@ -5,7 +5,8 @@
         <description>Workflowalert</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
+            <recipient>CEO</recipient>
+            <type>role</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/MarketingProductInquiryResponse</template>

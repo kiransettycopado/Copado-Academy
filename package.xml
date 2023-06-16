@@ -2,12 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ContactDuplicateHelper</members>
-        <members>ContactDuplicateTriggerTest</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>ContactDuplicateTrigger</members>
-        <name>ApexTrigger</name>
     </types>
     <version>57.0</version>
 </Package>
