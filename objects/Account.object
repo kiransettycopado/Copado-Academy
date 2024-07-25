@@ -283,6 +283,34 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Country__c</fullName>
+        <label>Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
@@ -478,6 +506,83 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <label>State</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Country__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Andhra Pradesh</fullName>
+                    <default>false</default>
+                    <label>Andhra Pradesh</label>
+                </value>
+                <value>
+                    <fullName>Telangana</fullName>
+                    <default>false</default>
+                    <label>Telangana</label>
+                </value>
+                <value>
+                    <fullName>Karnataka</fullName>
+                    <default>false</default>
+                    <label>Karnataka</label>
+                </value>
+                <value>
+                    <fullName>Texas</fullName>
+                    <default>false</default>
+                    <label>Texas</label>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                    <label>California</label>
+                </value>
+                <value>
+                    <fullName>Hokkaido</fullName>
+                    <default>false</default>
+                    <label>Hokkaido</label>
+                </value>
+                <value>
+                    <fullName>Tokyo</fullName>
+                    <default>false</default>
+                    <label>Tokyo</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>India</controllingFieldValue>
+                <valueName>Andhra Pradesh</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>India</controllingFieldValue>
+                <valueName>Telangana</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>India</controllingFieldValue>
+                <valueName>Karnataka</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>USA</controllingFieldValue>
+                <valueName>Texas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>USA</controllingFieldValue>
+                <valueName>California</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Japan</controllingFieldValue>
+                <valueName>Hokkaido</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Japan</controllingFieldValue>
+                <valueName>Tokyo</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Test__c</fullName>
