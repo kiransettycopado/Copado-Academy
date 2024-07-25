@@ -4,13 +4,5 @@
         <members>CopadoTest__mdt.Price__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-        <members>CopadoTest__mdt</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>CopadoTest__mdt-CopadoTest Layout</members>
-        <name>Layout</name>
-    </types>
     <version>61.0</version>
 </Package>
