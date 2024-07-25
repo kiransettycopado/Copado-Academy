@@ -4,5 +4,11 @@
         <members>CopadoTest__mdt.Price__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>CopadoTest.Record1</members>
+        <members>CopadoTest.Record2</members>
+        <members>CopadoTest.Record3</members>
+        <name>CustomMetadata</name>
+    </types>
     <version>61.0</version>
 </Package>
