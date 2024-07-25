@@ -533,10 +533,6 @@
                 <valueName>Telangana</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>India</controllingFieldValue>
-                <valueName>Karnataka</valueName>
-            </valueSettings>
-            <valueSettings>
                 <controllingFieldValue>USA</controllingFieldValue>
                 <valueName>Texas</valueName>
             </valueSettings>
