@@ -5,12 +5,10 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>CopadoTest__mdt</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>CopadoTest__mdt-CopadoTest Layout</members>
-        <name>Layout</name>
+        <members>CopadoTest.Record1</members>
+        <members>CopadoTest.Record2</members>
+        <members>CopadoTest.Record3</members>
+        <name>CustomMetadata</name>
     </types>
     <version>61.0</version>
 </Package>
