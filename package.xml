@@ -4,5 +4,11 @@
         <members>GroupwithRole</members>
         <name>Group</name>
     </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <name>Role</name>
+    </types>
     <version>61.0</version>
 </Package>
