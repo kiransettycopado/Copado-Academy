@@ -4,5 +4,11 @@
         <members>Trial_Approval_Request__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <name>Role</name>
+    </types>
     <version>61.0</version>
 </Package>
