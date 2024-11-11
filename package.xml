@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>WorkOrder.Status</members>
-        <name>CustomField</name>
+        <members>Lseg_MIAW_permission</members>
+        <name>PermissionSet</name>
     </types>
-    <types>
-        <members>WorkOrder.Record_type1</members>
-        <members>WorkOrder.record_Type2</members>
-        <name>RecordType</name>
-    </types>
-    <types>
-        <members>WorkOrderStatus</members>
-        <name>StandardValueSet</name>
-    </types>
-    <version>58.0</version>
+    <version>62.0</version>
 </Package>
