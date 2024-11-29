@@ -348,6 +348,64 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Copadotestpicklist12345__c</fullName>
+        <externalId>false</externalId>
+        <label>Copadotestpicklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Red1</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Copadotestpicklist123__c</fullName>
+        <externalId>false</externalId>
+        <label>Copadotestpicklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Red1</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -463,6 +521,45 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PC_pick__c</fullName>
+        <externalId>false</externalId>
+        <label>PC Picklist Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Orange</fullName>
+                    <default>false</default>
+                    <label>Orange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -524,10 +621,23 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Record_Type2</fullName>
+        <active>true</active>
+        <label>Record Type2</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type1</fullName>
+        <active>true</active>
+        <label>Record type1</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>

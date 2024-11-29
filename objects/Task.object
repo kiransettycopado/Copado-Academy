@@ -167,6 +167,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -361,6 +362,43 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>Record</fullName>
+        <active>true</active>
+        <description>Sales Task Recordtype</description>
+        <label>SalesTaskRC</label>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>CRM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SASupgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>

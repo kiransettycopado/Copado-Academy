@@ -196,6 +196,42 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>Record type1</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Record type2</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
@@ -324,6 +360,38 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Parent_of_product__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent of product</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>two</fullName>
+                    <default>false</default>
+                    <label>two</label>
+                </value>
+                <value>
+                    <fullName>three</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>three</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>PotentialLiability__c</fullName>
         <externalId>false</externalId>
         <label>Potential Liability</label>
@@ -372,6 +440,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Parent_of_product__c</controllingField>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -419,7 +488,21 @@
                     <default>false</default>
                     <label>GC1020</label>
                 </value>
+                <value>
+                    <fullName>.NET IDX SDK</fullName>
+                    <default>false</default>
+                    <label>.NET IDX SDK</label>
+                </value>
+                <value>
+                    <fullName>.NET</fullName>
+                    <default>false</default>
+                    <label>.NET</label>
+                </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>One</controllingFieldValue>
+                <valueName>.NET IDX SDK</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -560,6 +643,134 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <recordTypes>
+        <fullName>Record_type1</fullName>
+        <active>true</active>
+        <businessProcess>Record type1</businessProcess>
+        <label>Record type1</label>
+        <picklistValues>
+            <picklist>Parent_of_product__c</picklist>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2ENET IDX SDK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>record_Type2</fullName>
+        <active>true</active>
+        <businessProcess>Record type1</businessProcess>
+        <label>record Type2</label>
+        <picklistValues>
+            <picklist>Parent_of_product__c</picklist>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%2ENET IDX SDK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>

@@ -50,4 +50,10 @@
         <label>CopadoTest</label>
         <groupingString>New</groupingString>
     </standardValue>
+    <standardValue>
+        <fullName>CopadoTest2</fullName>
+        <default>false</default>
+        <label>CopadoTest2</label>
+        <groupingString>New</groupingString>
+    </standardValue>
 </StandardValueSet>

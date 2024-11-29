@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- College --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- College --></value>
+    </caseValues>
+    <fields>
+        <label>CopadoTest</label>
+        <name>Branch_code__c</name>
+    </fields>
+    
+    <nameFieldLabel><!-- College Name --></nameFieldLabel>
+</CustomObjectTranslation>

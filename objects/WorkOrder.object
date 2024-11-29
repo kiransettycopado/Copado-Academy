@@ -379,6 +379,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>CopadoTest2</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>In Progress</fullName>
                 <default>false</default>
             </values>
