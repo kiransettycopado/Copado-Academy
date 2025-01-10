@@ -11,7 +11,8 @@ private class AccountControllerTest {
             testAccounts.add(new Account(Name='Test Account ' + i, Type='Prospect', Industry='Technology'));
         }
         insert testAccounts;
-
+         // comment1
+        // comment2
         // Instantiate AccountController
         AccountController controller = new AccountController();
 
